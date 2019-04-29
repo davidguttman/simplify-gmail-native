@@ -7,6 +7,7 @@ npx nativefier \
   --inject /tmp/script.js \
   --inject /tmp/style.css \
   -i /tmp/gmail.icns \
+  --internal-urls 'nomatch' \
   "https://mail.google.com/mail/u/0/#inbox"
 
 open Gmail-darwin-x64
